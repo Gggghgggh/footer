@@ -145,6 +145,30 @@
   .socials img:hover {
     opacity: 0.7;
   }
+  /* Social Media Icons */
+.socials img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .socials img:hover {
+    opacity: 0.7;
+  }
+  
+  /* Play Store & App Store Icons */
+  .app-icons img {
+    width: 140px; /* Larger than social media icons */
+    height: auto;
+    margin-left: 10px; /* Add spacing */
+  }
+  
+  .app-icons img:hover {
+    transform: scale(1.05); /* Slight enlargement on hover */
+  }
+  
   
   /* Responsive */
   @media (max-width: 768px) {
